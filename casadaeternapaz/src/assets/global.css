@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
+
+html, body {
+    background: whitesmoke;
+
+    margin: 0;
+    min-height: 100vh;
+}
+.navedit {
+    width:90%;
+    list-style-type: none;
+    font-family: Garamond;
+    font-size: 1.9vw;
+    font-weight: 500;
+    background-color: transparent;
+    color: white;
+    padding: 1.5%;
+    margin-top: 1%;
+
+}
+.arredondamento {
+    border-radius: 120px;
+}
+.setinha {
+    margin-bottom: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.hov:hover {
+    color: #ADD8E6;
+}
+.banner {
+    width: 42%;
+    height: auto;
+    margin-left: 1%;
+    margin-top: 5%;
+    
+}
+.fundo {
+      position: relative;
+}
+.fundo3 {
+      position: relative;
+      
+}
+.fundo3 .ornamento {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* preenche a div mantendo proporção, sem repetir */
+  position: absolute;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.fundo3 .conteudo {
+  position: relative;
+  z-index: 2; /* garante que texto fique acima da imagem e overlay */
+  color: white;
+ 
+  
+}
+
+.imagem2 {
+    width: 30%;
+    height: auto;
+}
+.top {
+     font-family: "helvetica neue", sans-serif;
+    margin-top: 5%;
+}
+.fundo3::before {
+  
+    content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom,rgba(0, 0, 0, 0.347), rgb(15, 27, 18)); /* overlay semi-transparente */
+  z-index: 1;
+}
+.fundo2 {
+    position: relative;
+}
+.mini {
+    width: 8%;
+    height: auto !important;
+    margin-left: 1%;
+    margin-top: 0;
+    padding: 0;
+}
+
+.fundo .ornamento {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* preenche a div mantendo proporção, sem repetir */
+  position: absolute;
+  
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.fundo .conteudo {
+  position: relative;
+  
+  z-index: 2; /* garante que texto fique acima da imagem e overlay */
+  color: white;
+  
+}
+.fundo2 .ornamento {
+  width: 35%;
+  height: auto;
+  object-fit: cover; /* preenche a div mantendo proporção, sem repetir */
+  position: absolute;
+  opacity: 0.08;
+  top: 50%;
+  left: 50%;
+   transform: translate(-50%, -50%);
+  z-index: 0;
+}
+.fundo2 .conteudo {
+  position: relative;
+  z-index: 2; /* garante que texto fique acima da imagem e overlay */
+
+
+}                                                                                                                                       
+.push {                                     
+    margin-top: 6%; 
+    margin-bottom: 6%;   
+}
+.fundo2::before {
+  opacity: 0.1;
+  content: "";
+  position: absolute;
+  inset: 0;
+   /* overlay semi-transparente */
+  z-index: 1;
+}
+.fundo::before {
+  
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(10,10,20,0.8)); /* overlay semi-transparente */
+  z-index: 1;
+}
+.fontebanner {
+    font-size: 5vw;
+    font-family:'RocknRoll One', sans-serif;
+    margin-top: 0;
+    margin-bottom: 5%;
+  
+}
+.ig{
+    width:50%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.vilage {
+    width: 55%;
+    height: 45%;
+    margin-bottom: 5%;
+    border-radius: 30px;
+    box-shadow: -8px 8px 20px rgba(30, 22, 17); 
+}
+.fontebanner2 {
+       font-family:'Pacifico', cursive;
+       font-size: 3vw;
+}
+.weight-bold {
+    font-weight: bold;
+}
+
+.principal {
+      margin-top: 10%;
+      margin-bottom: 0;
+}
+.butao {
+    margin-top: 5%;
+    width: 20%;
+    font-family: garamond;
+    font-size: 1.5vw;
+    border-radius: 10px;
+    background-color: #2C2C2C;
+    color: white;
+    padding: 0.5%;
+    margin-bottom: 3%;
+
+}
+.butao2 {
+    margin-top: 5%;
+    width: 20%;
+    font-family: garamond;
+    font-size: 1.5vw;
+    border-radius: 25px;
+    background: transparent;
+    border: 3px solid #ADD8E6;
+    color: white;
+    padding: 0.5%;
+    margin-bottom: 3%;
+
+}
+.butao2:hover {
+    background-color:  #ADD8E6;
+    color: rgb(82, 80, 80);
+}
+.butao3 {
+    margin-top: 5%;
+    width: 20%;
+    font-family: garamond;
+    font-size: 1.5vw;
+    border-radius: 25px;
+    background: transparent;
+    border: 3px solid #000000;
+    color: rgb(0, 0, 0);
+    padding: 0.5%;
+    margin-bottom: 3%;
+
+}
+.butao3:hover {
+    background-color:  #ADD8E6;
+    color: rgb(82, 80, 80);
+}
+.janela {
+    width: 48%;
+    margin-bottom: 3%;
+}
+.imagem {
+
+    width: 100%;
+    margin: 0;
+    border: 3px solid black; 
+    box-shadow: -8px 8px 20px rgba(0,0,0,0.7); 
+    border-radius: 6px;
+    
+}
+.alt {
+    height: 90%;
+    
+}
+.cita{
+    font-size: 1.3vw;
+    font-family: Garamond;
+    margin-top: 0;  
+    margin-bottom: 5%;
+    text-align: justify;
+}
+.larg {
+    width: 40%;
+}
+.larg3 {
+    width: 70%;
+}
+.larg4 {
+    width: 95%;
+}
+.dark {
+    background-color: black;
+    color: white;
+}
+.larg2 {
+    width: 55%;
+}
+.fundador {
+    width: 30%;
+    margin: 0;
+    border: 3px solid black; 
+    box-shadow: -8px 8px 20px rgba(0,0,0,0.7); 
+    border-radius: 6px; 
+}
+
+.secajuste {
+    margin-top: 5%;
+    width: 100%;
+
+}
+.margen {
+
+    margin-right: 4%;
+}
+
+
+.fontesub{
+    font-size: 2.3vw;
+    font-family: "helvetica neue", sans-serif;
+    margin-top: 0;
+    margin-bottom: 2%;
+    font-weight: bolder;
+    
+}
+.fontecaminhada {
+    font-size: 2vw;
+    font-family: Garamond;
+    margin-top: 0;  
+    margin-bottom: 10%;
+    text-align: justify;
+    
+}
+.fontecaminhada2 {
+    font-size: 1.5vw;
+    font-family: Garamond;
+    margin-top: 0;
+    margin-bottom: 3%;
+    text-align: justify;
+    
+}
+.fontecaminhada3 {
+    font-size: 1.5vw;
+    font-family: Garamond;
+    margin-top: 0;
+    margin-bottom: 3%;
+    text-align: justify;
+    font-weight: bolder;  
+}
+
+@media(max-width: 1200px){
+    .imagem{
+        width: 55%;
+
+    }
+}
+@media(max-width: 1024px) {
+    .fontebanner {
+        font-size: 4vw;
+   
+    }
+    .banner {
+        width: 45%;
+       
+    }
+    .ornamento {
+        width: 100%;
+    }
+    .navedit {
+        font-size: 3vw;
+   
+    }
+    .principal {
+      margin-top: 15%;
+      margin-bottom: 10%;
+    }
+    .butao {
+        font-size: 3.5vw;
+    }
+    .imagem {
+        width: 80%;
+        margin: 0;
+        border: 3px solid black; 
+        box-shadow: -8px 8px 20px rgba(0,0,0,0.7); 
+        border-radius: 6px; 
+    }
+    .fontebanner {
+        font-size: 6vw;
+   
+    }
+    .fontesub {
+        font-size: 4vw;
+        
+    }
+    .butao2 {
+    width: 25%;
+    font-size: 3vw;
+   
+    }
+}
+
+@media(max-width: 728px) {
+    .fontebanner {
+        font-size: 7vw;
+   
+    }
+    .fontesub {
+        font-size: 4.5vw;
+        
+    }
+    .ornamento {
+        width: 100%;
+    }
+    .butao {
+        font-size: 3.5vw;
+    }
+    .fontecaminhada {
+        font-size: 3.5vw;
+    }
+     .fontecaminhada2 {
+        font-size: 3.5vw;
+    }
+    .banner {
+        width: 70%;
+       
+    }
+      .fontebanner2 {
+        font-size: 5vw;
+   
+    }
+    .principal {
+        height: 80%;
+         margin-top: 0%;
+      margin-bottom: 0%;
+    }
+    .navedit {
+        font-size: 4vw;
+   
+    }
+    .fundo {
+        height: 100vw;
+    }
+    .butao2 {
+    width: 40%;
+    font-size: 4vw;
+   
+    }
+   
+    
+}
+@media (max-width: 480px){
+    .fontebanner {
+        font-size: 7vw;
+   
+    }
+    .fontebanner2 {
+        font-size: 5.5vw;
+   
+    }
+    .fundo {
+      position: relative;
+        width: 100%;
+       
+  
+    }
+      .fontecaminhada {
+        font-size: 3.7vw;
+    }
+     .fontecaminhada2 {
+        font-size: 3.7vw;
+    }
+    .butao2 {
+    width: 40%;
+    font-size: 4vw;
+   
+
+}
+    .principal {
+      margin-top: 10%;
+      margin-bottom: 7%;
+    }
+
+}
+
+
