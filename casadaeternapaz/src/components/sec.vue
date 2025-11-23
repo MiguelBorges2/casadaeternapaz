@@ -19,7 +19,7 @@
                 </div>
             </div>        
         </div>
-         <div v-else-if="largura <= 768" class="d-flex  fundo2 flex-column justify-content-around align-items-center secajuste">
+         <div v-if="largura <= 768" class="d-flex  fundo2 flex-column justify-content-around align-items-center secajuste">
            <img class="ornamento" src="@/assets/logo2.png"></img>
           <div class="d-flex redu flex-column conteudo">
                 <h5>Ultimas mensagem</h5>
@@ -178,6 +178,12 @@ Desde a chegada de El Pastor, mensageiro da Santa Madre Muerte, o vilarejo flore
     export default {
     
         name: "sec",
+        data(){
+            return {
+            showSecaJuste: true,
+            largura: window.innerWidth
+        }
+        },
         methods: {
                async download(numero) {
                try {
@@ -230,12 +236,7 @@ Desde a chegada de El Pastor, mensageiro da Santa Madre Muerte, o vilarejo flore
     window.removeEventListener("resize", this.atualizar);
   },
        
-        data(){
-            return {
-            showSecaJuste: true,
-            largura: window.innerWidth
-        }
-        },
+        
         
     }
 </script>
