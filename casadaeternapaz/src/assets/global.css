@@ -9,17 +9,32 @@ html, body {
     min-height: 100vh;
 }
 .navedit {
-    width:90%;
+    width:85%;
     list-style-type: none;
     font-family: Garamond;
     font-size: 1.9vw;
     font-weight: 500;
     background-color: transparent;
     color: white;
-    padding: 1.5%;
-    margin-top: 1%;
+    margin: 2%;
+    padding: 0;
+}
+.redu {
+    width: 95%;
+}
+.navedit2 {
+    width:90%;
+    list-style-type: none;
+    font-family: Garamond;
+    font-size: 1.4vw;
+    font-weight: 500;
+    padding: 0;
+    background-color: transparent;
+    color: white;
+    margin: 2%;
 
 }
+
 .arredondamento {
     border-radius: 120px;
 }
@@ -30,6 +45,10 @@ html, body {
 }
 .hov:hover {
     color: #ADD8E6;
+}
+.link {
+    text-decoration: underline;
+    cursor: pointer;
 }
 .banner {
     width: 42%;
@@ -84,10 +103,21 @@ html, body {
     position: relative;
 }
 .mini {
-    width: 8%;
-    height: auto !important;
+    height: auto;
+    width: 6%;
+    object-fit: contain;
+    margin-top: 0;
+    padding: 0;
+    margin: 0;
+ 
+}
+.mini2 {
+    width: 6%;
+    height: auto;
+     object-fit: contain;
     margin-left: 1%;
     margin-top: 0;
+    margin-bottom: 0.5%;
     padding: 0;
 }
 
@@ -129,6 +159,17 @@ html, body {
     margin-top: 6%; 
     margin-bottom: 6%;   
 }
+.push2 {                                     
+    margin-top: 6%; 
+    margin-bottom: 6%;   
+}
+.muerte {
+    width: 20%;
+    height: auto;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 0 0 5px 5px;
+}
 .fundo2::before {
   opacity: 0.1;
   content: "";
@@ -150,8 +191,9 @@ html, body {
     font-family:'RocknRoll One', sans-serif;
     margin-top: 0;
     margin-bottom: 5%;
-  
+    text-align: center;
 }
+
 .ig{
     width:50%;
     margin-left: 5%;
@@ -175,6 +217,11 @@ html, body {
 .principal {
       margin-top: 10%;
       margin-bottom: 0;
+}
+.principal2 {
+      margin-top: 7%;
+      margin-bottom: 0;
+      width: 95%;
 }
 .butao {
     margin-top: 5%;
@@ -203,9 +250,26 @@ html, body {
 }
 .butao2:hover {
     background-color:  #ADD8E6;
-    color: rgb(82, 80, 80);
+    color: rgb(51, 39, 39);
 }
 .butao3 {
+    margin-top: 5%;
+    width: 30%;
+    font-family: garamond;
+    font-size: 1.5vw;
+    border-radius: 25px;
+    background: transparent;
+    border: 3px solid #000000;
+    color: rgb(0, 0, 0);
+    padding: 0.5%;
+    margin-bottom: 3%;
+
+}
+.butao3:hover {
+    background-color:  #ADD8E6;
+    color: rgb(82, 80, 80);
+}
+.butao4 {
     margin-top: 5%;
     width: 20%;
     font-family: garamond;
@@ -218,7 +282,7 @@ html, body {
     margin-bottom: 3%;
 
 }
-.butao3:hover {
+.butao4:hover {
     background-color:  #ADD8E6;
     color: rgb(82, 80, 80);
 }
@@ -297,6 +361,26 @@ html, body {
     text-align: justify;
     
 }
+.fontezinha {
+    font-family: Garamond;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+.gara {
+    font-family: Garamond;
+    font-size: 2vw;
+}
+.gap {
+    display: flex;
+    justify-content: start;
+    gap: 2%;
+}
+.gap2 {
+    display: flex;
+    justify-content: start;
+    gap: 4%;
+}
 .fontecaminhada2 {
     font-size: 1.5vw;
     font-family: Garamond;
@@ -313,7 +397,56 @@ html, body {
     text-align: justify;
     font-weight: bolder;  
 }
-
+.redondo {
+    margin-bottom: 2%;
+}
+.fontecaminhada6 {
+    font-size: 1.5vw;
+    font-family: Garamond;
+    margin-top: 0;
+    margin-bottom: 2%;
+    text-align: justify;
+    font-weight:  medium;  
+    min-width: 7%;
+}
+.borda {
+    border: 3px solid white;
+    border-radius: 40px;
+    margin-bottom: 3%;
+}
+.fontecaminhada7 {
+    font-size: 1.5vw;
+    font-family: Garamond;
+    margin-top: 0;
+    margin-bottom: 2%;
+    text-align: justify;
+    font-weight:  medium;  
+    min-width: 14%;
+}
+.lado {
+    margin-right: 4%;
+}
+.input1 {
+    width: 20%;
+    height: 100%;
+    margin-bottom:3%;
+    border: 2px solid black;
+    padding: 1%;
+    color: black;
+}
+.input2 {
+    width: 80%;
+    height: 100px;
+    border: 2px solid black;
+    color: black;
+}
+.input3 {
+    width: 50%;
+     padding: 1%;
+    margin-bottom:3%;
+      border: 2px solid black;
+    color: black;
+}
 @media(max-width: 1200px){
     .imagem{
         width: 55%;
@@ -333,11 +466,18 @@ html, body {
         width: 100%;
     }
     .navedit {
-        font-size: 3vw;
+        font-size: 2vw;
    
     }
+    .navedit2 {
+        font-size: 2vw;
+   
+    }
+    .mini2 {
+        width:6%;
+    }
     .principal {
-      margin-top: 15%;
+      margin-top: 10%;
       margin-bottom: 10%;
     }
     .butao {
@@ -363,12 +503,45 @@ html, body {
     font-size: 3vw;
    
     }
+    .butao4 {
+    width: 25%;
+    font-size: 2vw;
+   
+    }
+     .fontecaminhada {
+        font-size: 1.6vw;
+    }
+     .fontecaminhada2 {
+        font-size: 1.6vw;
+    }
+    .cita {
+        font-size: 1.6vw;
+    }
+    .fontecaminhada3 {
+        font-size: 1.6vw;
+    }
+    .fontecaminhada6 {
+        font-size: 1.8vw;
+    
+    }
+    .fontecaminhada7 {
+    font-size: 1.8vw;
+    min-width: 17%;
+
+}   
+
 }
 
-@media(max-width: 728px) {
+@media(max-width: 768px) {
     .fontebanner {
         font-size: 7vw;
    
+    }
+    .fontezinha {
+        font-size: 5vw;
+    }
+    .gara {
+        font-size: 4vw;
     }
     .fontesub {
         font-size: 4.5vw;
@@ -381,11 +554,12 @@ html, body {
         font-size: 3.5vw;
     }
     .fontecaminhada {
-        font-size: 3.5vw;
+        font-size: 2.8vw;
     }
      .fontecaminhada2 {
-        font-size: 3.5vw;
+        font-size: 2.8vw;
     }
+    
     .banner {
         width: 70%;
        
@@ -400,29 +574,126 @@ html, body {
       margin-bottom: 0%;
     }
     .navedit {
-        font-size: 4vw;
+        font-size: 3vw;
+        
    
+    }
+
+    .navedit2 {
+        font-size: 3vw;
+   
+    }
+    .fundo {
+        height: 80vw;
+    }
+    .butao2 {
+    width: 40%;
+    font-size: 3.5vw;
+   
+    }
+    .butao4 {
+    width: 30%;
+    font-size: 2.5vw;
+   
+    }
+    .butao3 {
+    width: 35%;
+    font-size: 3vw;
+   
+    }
+   
+   .mini {
+    height: auto;
+    margin-top: 0;
+    width: 8%;
+   }
+   .mini2 {
+    width: 8%;
+   }
+    .cita {
+        font-size: 2.8vw;
+        
+    }
+     .fontecaminhada3 {
+        font-size: 2.8vw;
+    }
+     .fontecaminhada6 {
+    font-size: 2.5vw;
+
+}
+ .fontecaminhada7 {
+    font-size: 2.3vw;
+
+}
+    .muerte{
+        width:40%;
+    }
+    .fundador{
+        width: 35%;
+    }
+    .janela{
+        width: 55%;
+    }
+    .vilage{
+        width: 45%;
+    }
+}
+@media (max-width: 480px){
+    .butao4 {
+    width: 35%;
+    font-size: 3.5vw;
+   
+    }
+    .fontebanner {
+        font-size: 8vw;
+   
+    }
+
+     .fontezinha {
+        font-size: 7vw;
+    }
+    .gara {
+        font-size: 5.5vw
     }
     .fundo {
         height: 100vw;
     }
-    .butao2 {
-    width: 40%;
-    font-size: 4vw;
-   
-    }
-   
     
+   .mini {
+    height: auto;
+    width: 8%;
+    margin-top: 0;
+   
+   }
+    .fontecaminhada7 {
+    font-size: 2.8vw;
+
 }
-@media (max-width: 480px){
-    .fontebanner {
-        font-size: 7vw;
+    .muerte {
+        width: 45%;
+    }
+    .butao {
+        font-size: 4.4vw;
+    }
+    .cita {
+        font-size: 3.6vw;
+        
+    }
+    .input3 {
+        width: 90%;
+    }
+  
+    .butao3 {
+    width: 45%;
+    font-size: 4.2vw;
    
     }
+   
     .fontebanner2 {
-        font-size: 5.5vw;
+        font-size: 6vw;
    
     }
+    
     .fundo {
       position: relative;
         width: 100%;
@@ -430,22 +701,42 @@ html, body {
   
     }
       .fontecaminhada {
-        font-size: 3.7vw;
+        font-size: 3.6vw;
     }
      .fontecaminhada2 {
-        font-size: 3.7vw;
+        font-size: 3.5vw;
+    }
+    .imagem {
+        width: 100%;
+    }
+    .janela {
+        width: 75%;
     }
     .butao2 {
-    width: 40%;
-    font-size: 4vw;
-   
+    width: 45%;
+    font-size: 4.4vw;
+        
+
+}   
+    .fontecaminhada3 {
+        font-size: 3.6vw;
+    }
+     .fontecaminhada6 {
+    font-size: 3.2vw;
 
 }
+    .fundador {
+        width: 45%;
+    }
     .principal {
       margin-top: 10%;
       margin-bottom: 7%;
     }
-
+    .navedit {
+        margin-top: 2%;
+        
+   
+    }
 }
 
 
