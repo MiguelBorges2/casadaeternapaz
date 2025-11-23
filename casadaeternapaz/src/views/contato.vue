@@ -1,5 +1,5 @@
 <template>
-<div class="w-100">
+<div class="w-100 d-flex align-items-center justify-content-between flex-column tenta">
     <end></end>
     <secont></secont>
     <final></final>
@@ -27,5 +27,7 @@ export default {
 }
 </script>
 <style>
-
+    .tenta {
+        height: 100vh !important;
+    }
 </style>
