@@ -1,5 +1,5 @@
 <template>
- <div v-if="largura > 768 "class="d-flex w-100 fundo2  flex-column justify-content-start align-items-center">
+ <div v-if="largura > 768 "class="d-flex w-100 fundo2  flex-column justify-content-center align-items-center">
         <img class="ornamento" src="@/assets/logo2.png"></img>
         
   
@@ -60,7 +60,7 @@
         
     
     </div>
-    <div v-if="largura <= 768 "class="d-flex w-100 fundo2  flex-column justify-content-start align-items-center">
+    <div v-if="largura <= 768 "class="d-flex w-100 fundo2  flex-column justify-content-center align-items-center">
         <img class="ornamento" src="@/assets/logo2.png"></img>
         
   
