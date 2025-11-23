@@ -2,7 +2,7 @@
 
 <div class="w-100 d-flex justify-content-center  align-items-center flex-column">
         <div v-if="largura > 768" class="d-flex  fundo2 justify-content-around align-items-center secajuste">
-           <img class="ornamento" src="@/assets/logo2.png"></img>
+           <img loading="lazy" class="ornamento" src="@/assets/logo2.png"></img>
           <div class="d-flex larg flex-column conteudo">
                 <h2 >Ultimas mensagem</h2>
                 <h2 class="fontesub "> Nossa Caminhada pela Paz Eterna</h2>
@@ -10,17 +10,17 @@
             </div>
             <div class="larg2 d-flex justify-content-around conteudo">
                 <div class="d-flex flex-column janela justify-content-center align-items-center">
-                    <img class="imagem" src="@/assets/cult.webp">
+                    <img loading="lazy" class="imagem" src="@/assets/cult.webp">
                     
                 </div>
                 <div class="d-flex  flex-column janela justify-content-center align-items-center">
-                    <img class="imagem" src="@/assets/fundo2.webp">
+                    <img loading="lazy" class="imagem" src="@/assets/fundo2.webp">
 
                 </div>
             </div>        
         </div>
          <div v-if="largura <= 768" class="d-flex  fundo2 flex-column justify-content-around align-items-center secajuste">
-           <img class="ornamento" src="@/assets/logo2.png"></img>
+           <img loading="lazy" class="ornamento" src="@/assets/logo2.png"></img>
           <div class="d-flex redu flex-column conteudo">
                 <h5>Ultimas mensagem</h5>
                 <h2 class="fontesub"> Nossa Caminhada pela Paz Eterna</h2>
@@ -28,18 +28,18 @@
             </div>
             <div class="w-100 d-flex flex-column justify-content-center  align-items-center conteudo">
                 <div class="d-flex flex-column janela justify-content-center align-items-center">
-                    <img class="imagem" src="@/assets/cult.webp">
+                    <img loading="lazy" class="imagem" src="@/assets/cult.webp">
                     
                 </div>
                 <div class="d-flex  flex-column janela justify-content-center align-items-center">
-                    <img class="imagem" src="@/assets/fundo2.webp">
+                    <img loading="lazy" class="imagem" src="@/assets/fundo2.webp">
 
                 </div>
             </div>        
         </div>
     
     <div id="fundador" v-if="largura > 768" class="d-flex w-100 justify-content-between dark secajuste">
-        <img class="fundador" src="@/assets/ernesto.png"></img>
+        <img loading="lazy" class="fundador" src="@/assets/ernesto.png"></img>
         <div class="d-flex larg3 align-items-center justify-content-center">
           <div class="d-flex larg4 flex-column  ">
              <h2 class="fontesub "> Nosso Fundador</h2>
@@ -66,7 +66,7 @@
       </div>
     
      <div id="quem" v-if="largura > 768" class="d-flex  fundo2 justify-content-end align-items-center ">
-        <img class="ornamento" src="@/assets/logo2.png"></img>
+        <img loading="lazy" class="ornamento" src="@/assets/logo2.png"></img>
             <div class="d-flex conteudo w-50 push margen flex-column">
                 <h2 class="fontesub"> Quem Somos</h2>
                 <p class="fontecaminhada3 ">Uma <a @click="download(12)" class="fontecaminhada3 text-dark link">comunidade</a> fundada no amor, igualdade, perdão e compreensão. Localizada no interior de El Silencio, o isolamento do mundo moderno é essencial para se tornar mais próximo a Deus, e a Casa da Eterna Paz se esforça para se manter auto-sustentável. Estamos sempre abertos a visitas e novos membros que mostrem interesse genuino.</p>
@@ -79,7 +79,7 @@
            
         </div>
        <div  id="quem" v-if="largura <= 768" class="d-flex  fundo2 justify-content-end align-items-center ">
-        <img class="ornamento" src="@/assets/logo2.png"></img>
+        <img loading="lazy" class="ornamento" src="@/assets/logo2.png"></img>
             <div class="d-flex conteudo align-items-center redu push margen flex-column">
                 <h2 class="fontesub"> Quem Somos</h2>
                 <p class="fontecaminhada3 ">Uma <a @click="download(12)" class="fontecaminhada3 text-dark link">comunidade</a> fundada no amor, igualdade, perdão e compreensão. Localizada no interior de El Silencio, o isolamento do mundo moderno é essencial para se tornar mais próximo a Deus, e a Casa da Eterna Paz se esforça para se manter auto-sustentável. Estamos sempre abertos a visitas e novos membros que mostrem interesse genuino.</p>
@@ -92,7 +92,7 @@
            
         </div>
      <div v-if="largura > 768" class="d-flex w-100 fundo3 justify-content-between ">
-        <img class="ornamento" src="@/assets/uniao2.jpg"></img>
+        <img loading="lazy" class="ornamento" src="@/assets/uniao2.jpg"></img>
           <div class="d-flex justify-content-center align-items-center larg4 flex-column conteudo ">
             
             <h1 class="top ">Nossa Comunidade</h1>
@@ -112,8 +112,8 @@ Dizem que quem dorme sob o céu de El Silencio desperta com a alma mais leve —
           
 
                 <div class="d-flex w-50 top flex-column justify-content-center align-items-center">
-                  <img class="vilage" src="@/assets/village2.jpg">
-                  <img class="vilage" src="@/assets/map2.png">
+                  <img loading="lazy" class="vilage" src="@/assets/village2.jpg">
+                  <img loading="lazy" class="vilage" src="@/assets/map2.png">
                 </div>
             </div>
               
@@ -137,8 +137,8 @@ Desde a chegada de El Pastor, mensageiro da Santa Madre Muerte, o vilarejo flore
                 </div>
 
                 <div class="d-flex w-100 flex-column justify-content-center align-items-center">
-                  <img class="vilage" src="@/assets/village2.jpg">
-                  <img class="vilage" src="@/assets/map2.png">
+                  <img loading="lazy" class="vilage" src="@/assets/village2.jpg">
+                  <img loading="lazy" class="vilage" src="@/assets/map2.png">
                 </div>
            
               
@@ -148,7 +148,7 @@ Desde a chegada de El Pastor, mensageiro da Santa Madre Muerte, o vilarejo flore
     </div>
     <div v-if="largura > 768 " class="d-flex  fundo2 justify-content-around align-items-center ">
         <img class="ornamento" src="@/assets/logo2.png"></img>
-            <img class="muerte" src="@/assets/lamu2.png"></img>
+            <img loading="lazy" class="muerte" src="@/assets/lamu2.png"></img>
             <div class="d-flex conteudo w-50 push2 margen flex-column">
                 <h2 class="fontesub"> Santa Muerte</h2>
                 <p class="fontecaminhada3 ">Santa Muerte é a guardiã silenciosa que acolhe todos sem distinção, a Mãe Imparcial que não julga, não abandona e não exige perfeição para oferecer seu abrigo. Enquanto outras divindades falam ao distante, ela caminha ao lado dos vivos e dos mortos, estendendo seu manto sobre aqueles que buscam paz em meio ao caos. Para seus devotos, é símbolo de igualdade, compaixão e justiça absoluta — a presença que traz conforto no último suspiro e força nos dias mais duros. Em El Silencio, ela não é temida: é honrada como aquela que vela pelos esquecidos, protege os humildes e guia todas as almas rumo ao descanso que a vida tantas vezes nega. <a class="text-light" href="https://casend.onrender.com/remi"> ???  </a></p>
@@ -159,7 +159,7 @@ Desde a chegada de El Pastor, mensageiro da Santa Madre Muerte, o vilarejo flore
            
       </div>
     <div v-if="largura <= 768 " class="d-flex  fundo2 redu justify-content-around flex-column align-items-center ">
-        <img class="ornamento" src="@/assets/logo2.png"></img>
+        <img loading="lazy" class="ornamento" src="@/assets/logo2.png"></img>
             
             <div class="d-flex conteudo  push2 margen align-items-center flex-column">
                 <h1 class="fontezinha"> Santa Muerte</h1>
@@ -167,7 +167,7 @@ Desde a chegada de El Pastor, mensageiro da Santa Madre Muerte, o vilarejo flore
                
                
             </div>
-            <img class="muerte" src="@/assets/lamu2.png"></img>
+            <img loading="lazy" class="muerte" src="@/assets/lamu2.png"></img>
             
           
       </div>
