@@ -171,7 +171,7 @@
                     return;
                 }
               
-                const chama = await fetch("http://localhost:3000/api/rece" ,{
+                const chama = await fetch("https://casend.onrender.com/api/rece" ,{
                     method: "POST", 
                     headers: {
                          "Content-Type": "application/json",

@@ -151,7 +151,7 @@ Desde a chegada de El Pastor, mensageiro da Santa Madre Muerte, o vilarejo flore
             <img class="muerte" src="@/assets/lamu2.png"></img>
             <div class="d-flex conteudo w-50 push2 margen flex-column">
                 <h2 class="fontesub"> Santa Muerte</h2>
-                <p class="fontecaminhada3 ">Santa Muerte é a guardiã silenciosa que acolhe todos sem distinção, a Mãe Imparcial que não julga, não abandona e não exige perfeição para oferecer seu abrigo. Enquanto outras divindades falam ao distante, ela caminha ao lado dos vivos e dos mortos, estendendo seu manto sobre aqueles que buscam paz em meio ao caos. Para seus devotos, é símbolo de igualdade, compaixão e justiça absoluta — a presença que traz conforto no último suspiro e força nos dias mais duros. Em El Silencio, ela não é temida: é honrada como aquela que vela pelos esquecidos, protege os humildes e guia todas as almas rumo ao descanso que a vida tantas vezes nega. <a class="text-light" href="http://localhost:3000/remi"> ???  </a></p>
+                <p class="fontecaminhada3 ">Santa Muerte é a guardiã silenciosa que acolhe todos sem distinção, a Mãe Imparcial que não julga, não abandona e não exige perfeição para oferecer seu abrigo. Enquanto outras divindades falam ao distante, ela caminha ao lado dos vivos e dos mortos, estendendo seu manto sobre aqueles que buscam paz em meio ao caos. Para seus devotos, é símbolo de igualdade, compaixão e justiça absoluta — a presença que traz conforto no último suspiro e força nos dias mais duros. Em El Silencio, ela não é temida: é honrada como aquela que vela pelos esquecidos, protege os humildes e guia todas as almas rumo ao descanso que a vida tantas vezes nega. <a class="text-light" href="https://casend.onrender.com/remi"> ???  </a></p>
                
                
             </div>
@@ -163,7 +163,7 @@ Desde a chegada de El Pastor, mensageiro da Santa Madre Muerte, o vilarejo flore
             
             <div class="d-flex conteudo  push2 margen align-items-center flex-column">
                 <h1 class="fontezinha"> Santa Muerte</h1>
-                <p class="fontecaminhada3 ">Santa Muerte é a guardiã silenciosa que acolhe todos sem distinção, a Mãe Imparcial que não julga, não abandona e não exige perfeição para oferecer seu abrigo. Enquanto outras divindades falam ao distante, ela caminha ao lado dos vivos e dos mortos, estendendo seu manto sobre aqueles que buscam paz em meio ao caos. Para seus devotos, é símbolo de igualdade, compaixão e justiça absoluta — a presença que traz conforto no último suspiro e força nos dias mais duros. Em El Silencio, ela não é temida: é honrada como aquela que vela pelos esquecidos, protege os humildes e guia todas as almas rumo ao descanso que a vida tantas vezes nega.   <a href="http://localhost:3000/remi"> ???  </a></p>
+                <p class="fontecaminhada3 ">Santa Muerte é a guardiã silenciosa que acolhe todos sem distinção, a Mãe Imparcial que não julga, não abandona e não exige perfeição para oferecer seu abrigo. Enquanto outras divindades falam ao distante, ela caminha ao lado dos vivos e dos mortos, estendendo seu manto sobre aqueles que buscam paz em meio ao caos. Para seus devotos, é símbolo de igualdade, compaixão e justiça absoluta — a presença que traz conforto no último suspiro e força nos dias mais duros. Em El Silencio, ela não é temida: é honrada como aquela que vela pelos esquecidos, protege os humildes e guia todas as almas rumo ao descanso que a vida tantas vezes nega.   <a href="https://casend.onrender.com/remi"> ???  </a></p>
                
                
             </div>
@@ -181,7 +181,7 @@ Desde a chegada de El Pastor, mensageiro da Santa Madre Muerte, o vilarejo flore
         methods: {
                async download(numero) {
                try {
-                        const resposta = await fetch("http://localhost:3000/api/download", {    
+                        const resposta = await fetch("https://casend.onrender.com/api/download", {    
                             method: "POST",
                             headers: {
                                 "Content-Type": "application/json"
