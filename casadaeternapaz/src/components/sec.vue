@@ -71,7 +71,7 @@
                 <h2 class="fontesub"> Quem Somos</h2>
                 <p class="fontecaminhada3 ">Uma <a @click="download(12)" class="fontecaminhada3 text-dark link">comunidade</a> fundada no amor, igualdade, perdão e compreensão. Localizada no interior de El Silencio, o isolamento do mundo moderno é essencial para se tornar mais próximo a Deus, e a Casa da Eterna Paz se esforça para se manter auto-sustentável. Estamos sempre abertos a visitas e novos membros que mostrem interesse genuino.</p>
                 <div class="d-flex w-100 justify-content-end">
-                    <button class="butao3 conteudo">Entre em contato</button>
+                    <button @click="contato()" class="butao3 conteudo">Entre em contato</button>
                 </div>
                
             </div>
